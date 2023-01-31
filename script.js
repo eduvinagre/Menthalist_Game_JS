@@ -14,7 +14,7 @@ while (chute != numeroSecreto) {
      alert('Errou... ' + chute + ' é MENOR que o número secreto!')
     } if (limite != numeroSecreto) {
      limite -= 1
-    } if (limite < 1) {
+    } if (limite == 0) {
     alert('FIM DE JOGO, suas chances acabaram! O número secreto era ' + numeroSecreto)
     break
    } if(chute == "PARE") {
